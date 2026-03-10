@@ -25,34 +25,34 @@ public class OOPSBannerApp {
 
         Map<Character, String[]> patternMap = new HashMap<>();
 
-        patternMap.put('O', new String[]{
-            "  ***  ",
-            " **  ** ",
-            "**    **",
-            "**    **",
-            "**    **",
-            " **  ** ",
-            "  ***  "
+        patternMap.put('O', new String[] {
+                "  ***  ",
+                " **  * ",
+                "**    *",
+                "**    *",
+                "**    *",
+                " **  * ",
+                "  ***  "
         });
 
-        patternMap.put('P', new String[]{
-            " ****  ",
-            "**   **",
-            "**   **",
-            "****   ",
-            "**     ",
-            "**     ",
-            "**     "
+        patternMap.put('P', new String[] {
+                " **** ",
+                "**   *",
+                "**   *",
+                "**** *",
+                "**   ",
+                "**   ",
+                "**   "
         });
 
-        patternMap.put('S', new String[]{
-            " **** ",
-            "**    ",
-            "**    ",
-            " ***  ",
-            "    **",
-            "    **",
-            " **** "
+        patternMap.put('S', new String[] {
+                " ****",
+                "**   ",
+                "**   ",
+                " *** ",
+                "   **",
+                "   **",
+                "**** "
         });
 
         // Render any word
